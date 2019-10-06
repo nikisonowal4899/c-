@@ -1,13 +1,12 @@
 // Stack - Object oriented implementation using arrays
 #include <iostream>
 using namespace std;
-
 #define MAX_SIZE 101 
 
 class Stack
 {
 private:
-  	int A[MAX_SIZE];  // array to store the stack
+  int A[MAX_SIZE];  // array to store the stack
 	int top;   // variable to mark the top index of stack. 
 public:
 	// constructor
